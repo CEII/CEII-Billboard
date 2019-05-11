@@ -17,7 +17,7 @@ export default class ImageShow extends Component{
 
     componentDidMount() {
         this.fetchImages();
-        window.setInterval(this.fetchImages, 900000)
+        window.setInterval(this.fetchImages, 3600000)
     }
 
     shouldComponentUpdate(nextProps, nextState):Boolean{
@@ -67,6 +67,9 @@ export default class ImageShow extends Component{
                 showPlayButton={false}
                 showBullets={false}
                 showNav={false}
+                slideInterval={5000}
+                slideDuration={1000}
+                thumbnailPosition={"left"}
             />
             : null
     }

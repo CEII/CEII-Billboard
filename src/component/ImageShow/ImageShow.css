@@ -2,7 +2,11 @@
     height: 100vh;
     width: 100vw;
 }
-.OriginalImage>div>img{
+.OriginalImage>div{
     height: 100vh;
     width: 100vw;
+    text-align: center;
+}
+.OriginalImage>div>img{
+
 }
