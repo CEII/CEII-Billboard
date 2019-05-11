@@ -17,7 +17,7 @@ export default class ImageShow extends Component{
 
     componentDidMount() {
         this.fetchImages();
-        window.setInterval(this.fetchImages, 10000)
+        window.setInterval(this.fetchImages, 900000)
     }
 
     shouldComponentUpdate(nextProps, nextState):Boolean{
