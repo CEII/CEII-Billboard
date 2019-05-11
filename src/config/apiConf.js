@@ -1,5 +1,5 @@
-import axios from 'axios';
+import axios from 'axios/index';
 
 export default axios.create({
-    baseURL: `https://ceii-billboard-api.herokuapp.com/`
+    baseURL: process.env.REACT_APP_API_URL
 })
