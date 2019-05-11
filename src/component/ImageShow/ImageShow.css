@@ -1,0 +1,8 @@
+.OriginalImage{
+    height: 100vh;
+    width: 100vw;
+}
+.OriginalImage>div>img{
+    height: 100vh;
+    width: 100vw;
+}
