@@ -69,7 +69,7 @@ export default class ImageShow extends Component{
                 showNav={false}
                 slideInterval={5000}
                 slideDuration={1000}
-                thumbnailPosition={"left"}
+                showThumbnails={false}
             />
             : null
     }
